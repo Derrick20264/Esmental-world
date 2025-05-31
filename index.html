@@ -2,12 +2,47 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Esmental World</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <h1>Hello World</h1>
-        <p>This is a test to see if github pages is working.</p>
+        <header>
+            <h1>Esmental World</h1>
+            <nav>
+                <a href="products">shop</a>
+                <a href="about">About</a>
+                <a href="contact">contact</a>
+            </nav>
+            </header>
+            <section id="products" class="products">
+               <h2>Featured products</h2> 
+               <div class="product-grid">
+                     <div class="product-card">
+                        <img src="https://www.dhresource.com/webp/m/0x0/f2/albu/g22/M00/D2/6F/rBVaE2LzvzSAZOC1AABJ055SFOI125.jpg" alt="streetwear" />
+                        <h3>hoodie</h3>
+                        <p>ksh 4,000</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="data:image/jpeg;base64,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" alt="streetwear" />
+                            <h3>T-shirt</h3>
+                            <p>ksh 2,500</p>
+                            </div>
+                            </div>
+                            </section>
+                   <section id="about" class="about">
+                       <h2>About us</h2>
+                          <p>Esmental World is a streetwear brand born out of bold expression, youth creativity, and timeless style. we keep it simple, stlyish, and clean.</p>
+                          </section>
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>instagram: @esmental.world</p>
+      <p>Email: info@esmentalworld.com</p>
+      </section>
+    </footer>
+    <p>&copy; 2025 Esmental World. All rights reserved.</p>
+        </footer>
+        
     </body>
     </html>
       
